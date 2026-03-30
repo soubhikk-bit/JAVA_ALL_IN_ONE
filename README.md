@@ -113,17 +113,17 @@ core-java/
 ## 📈 Progress
 
 ```
-Basics             ██████████  100%
-Methods            ██████████  100%
-Arrays             ████████░░   80%
-OOP (Classes)      ████████░░   80%
+Basics             ░░░░░░░░░░    0%
+Methods            ░░░░░░░░░░    0%
+Arrays             ░░░░░░░░░░    0%
+OOP (Classes)      ░░░░░░░░░░    0%
 Encapsulation      ░░░░░░░░░░    0%
 Inheritance        ░░░░░░░░░░    0%
 Polymorphism       ░░░░░░░░░░    0%
 Abstraction        ░░░░░░░░░░    0%
 Exception Handling ░░░░░░░░░░    0%
 Collections        ░░░░░░░░░░    0%
-LeetCode           █░░░░░░░░░   10%  (Target: 250)
+LeetCode           ░░░░░░░░░░    0%  (Target: 250)
 ```
 
 ---
