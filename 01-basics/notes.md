@@ -53,3 +53,122 @@ It execute code line by line
 
 # Byte code :-
 it is an intermidiate language which is neither understandable by machine nor by hummans.
+
+
+
+# Java Tokens — Notes
+
+## What is a Token?
+The smallest individual unit in a Java program is called a Token.
+When the Java compiler reads your code, it breaks it into tokens first.
+
+## Types of Tokens in Java
+
+There are 5 types of tokens in Java:
+1. Keywords
+2. Identifiers
+3. Literals
+4. Operators
+5. Separators
+
+---
+
+## 1. Keywords
+- Reserved words that have a special meaning in Java
+- Cannot be used as variable names or class names
+- Always written in lowercase
+
+Examples:
+int, float, double, char, boolean, byte, short, long,
+if, else, switch, case, break, default,
+for, while, do,
+class, public, private, protected, static, void, final,
+new, return, this, super, extends, implements,
+try, catch, finally, throw, throws,
+true, false, null
+
+---
+
+## 2. Identifiers
+- Names given to variables, methods, classes, objects etc.
+- Created by the programmer
+
+### Rules for Identifiers:
+- Can contain letters, digits, _ (underscore), $ (dollar sign)
+- Cannot start with a digit
+- Cannot be a keyword
+- Java is case sensitive — age and Age are different
+
+### Examples:
+Valid:   name, age, _count, $price, myMethod, HelloWorld
+Invalid: 1name, int, my-name, hello world
+
+---
+
+## 3. Literals
+- Fixed values directly written in the code
+
+| Type | Example |
+|------|---------|
+| Integer Literal | 10, 200, -50 |
+| Float Literal | 3.14f, 99.5f |
+| Double Literal | 3.14159, 99.99 |
+| Char Literal | 'A', 'z', '9' |
+| String Literal | "Hello", "Soubhik" |
+| Boolean Literal | true, false |
+| Null Literal | null |
+```java
+int age = 21;           // 21 is an integer literal
+double price = 99.99;   // 99.99 is a double literal
+char grade = 'A';       // 'A' is a char literal
+String name = "Soubhik";// "Soubhik" is a string literal
+boolean flag = true;    // true is a boolean literal
+```
+
+---
+
+## 4. Operators
+- Symbols that perform operations on variables and values
+
+| Type | Operators | Example |
+|------|-----------|---------|
+| Arithmetic | + - * / % | a + b |
+| Relational | == != > < >= <= | a > b |
+| Logical | && \|\| ! | a && b |
+| Assignment | = += -= *= /= | a = 10 |
+| Increment/Decrement | ++ -- | a++ |
+| Ternary | ?: | a > b ? a : b |
+
+---
+
+## 5. Separators
+- Symbols used to separate or group parts of code
+
+| Separator | Symbol | Usage |
+|-----------|--------|-------|
+| Parentheses | () | method calls, conditions |
+| Curly Braces | {} | code blocks, class/method body |
+| Square Brackets | [] | arrays |
+| Semicolon | ; | end of statement |
+| Comma | , | separating variables |
+| Dot | . | accessing methods/variables |
+```java
+public class Demo {           // { is a separator
+    public static void main(String[] args) {  // () and [] are separators
+        int a = 10, b = 20;   // , is a separator
+        System.out.println(a); // . and () and ; are separators
+    }                         // } is a separator
+}
+```
+
+---
+
+## Quick Summary
+
+| Token | Description | Example |
+|-------|-------------|---------|
+| Keyword | Reserved word | int, class, if |
+| Identifier | Name given by programmer | age, myMethod |
+| Literal | Fixed value | 10, 'A', "Hello" |
+| Operator | Performs operation | + - * / |
+| Separator | Separates code units | ; , () {} |
