@@ -172,3 +172,101 @@ public class Demo {           // { is a separator
 | Literal | Fixed value | 10, 'A', "Hello" |
 | Operator | Performs operation | + - * / |
 | Separator | Separates code units | ; , () {} |
+
+
+
+# ⚙️ Java Operators — Complete Notes
+
+> 🚀 Mastering operators is the foundation of writing logic in Java.
+
+---
+
+## 📌 What is an Operator?
+
+An **operator** is a symbol used to perform operations on variables and values.
+
+```java
+int a = 10 + 5;  // '+' is an operator
+🧠 Types of Operators in Java
+Category	Description
+➕ Arithmetic	Mathematical operations
+🔍 Relational	Comparison between values
+🔗 Logical	Combine conditions
+📝 Assignment	Assign/update values
+🔼 Increment/Decrement	Increase or decrease value
+❓ Ternary	Short form of if-else
+➕ 1. Arithmetic Operators
+
+Used for mathematical calculations.
+
+Operator	Meaning	Example
++	Addition	a + b
+-	Subtraction	a - b
+*	Multiplication	a * b
+/	Division	a / b
+%	Modulus (remainder)	a % b
+int a = 10, b = 3;
+System.out.println(a + b); // 13
+System.out.println(a % b); // 1
+🔍 2. Relational Operators
+
+Used to compare values → result is always true/false
+
+Operator	Meaning
+==	Equal to
+!=	Not equal
+>	Greater than
+<	Less than
+>=	Greater than or equal
+<=	Less than or equal
+int a = 10, b = 5;
+System.out.println(a > b); // true
+🔗 3. Logical Operators
+
+Used to combine conditions.
+
+Operator	Meaning
+&&	AND (both must be true)
+||	OR (any one true)
+!	NOT (reverse result)
+int a = 10, b = 5;
+System.out.println(a > 5 && b < 10); // true
+📝 4. Assignment Operators
+
+Used to assign and update values.
+
+Operator	Example	Meaning
+=	a = 10	Assign
++=	a += 5	a = a + 5
+-=	a -= 5	a = a - 5
+*=	a *= 5	a = a * 5
+/=	a /= 5	a = a / 5
+int a = 10;
+a += 5; // 15
+🔼 5. Increment & Decrement
+Operator	Meaning
+++	Increase by 1
+--	Decrease by 1
+⚡ Types
+Pre-increment → ++a (first increase, then use)
+Post-increment → a++ (first use, then increase)
+int a = 5;
+System.out.println(++a); // 6
+System.out.println(a++); // 6 (then becomes 7)
+❓ 6. Ternary Operator
+
+Shortcut for if-else.
+
+condition ? value_if_true : value_if_false;
+int a = 10, b = 20;
+int max = (a > b) ? a : b;
+System.out.println(max); // 20
+⚠️ Common Mistakes
+❌ Using = instead of ==
+❌ Confusing a++ and ++a
+❌ Integer division losing decimal values
+🧠 Key Takeaways
+Operators are the core of logic building
+Relational operators return boolean
+Logical operators combine conditions
+Ternary operator makes code short and clean
