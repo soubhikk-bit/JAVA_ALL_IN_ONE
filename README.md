@@ -140,7 +140,7 @@ LeetCode           ░░░░░░░░░░    0%  (Target: 250)
 ## 🤝 Connect With Me
 
 - 💼 [LinkedIn](#) *https://www.linkedin.com/in/soubhik-karmakar-66bab43a9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app*
-- 🐙 [GitHub](#) *(add your link)*
+
 
 ---
 
